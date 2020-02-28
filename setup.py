@@ -19,10 +19,6 @@ with open(os.path.join(here, 'bottle_inject.py')) as f:
         raise RuntimeError("Could not find version string in module file.")
 
 extra = {
-    'install_requires': [
-        'distribute',
-        'bottle>=0.11',
-    ],
     'tests_require': [
 	'coverage',
     ],
